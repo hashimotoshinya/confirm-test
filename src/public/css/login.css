@@ -1,0 +1,33 @@
+header__inner {
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+    max-width: 1230px;
+}
+
+.header__nav{
+    text-align: right;
+}
+
+.header__logo {
+    color: #8c7b6a;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Noto Serif JP", serif;
+}
+
+.login-form__content{
+    text-align: center;
+    color:#8c7b6a;
+    background-color: #f5e5d2;
+}
+
+
+.form__group{
+    text-align: center;
+}
+
+.form__button{
+    text-align: center;
+}

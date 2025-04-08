@@ -1,0 +1,139 @@
+body {
+    font-family: 'Noto Serif JP', serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color:#8c7b6a;
+}
+
+.header {
+    color: #8c7b6a;
+    font-size:24px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logout-button {
+    background-color:#8c7b6a;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.main {
+    padding: 30px;
+}
+
+.admin-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color:#8c7b6a;
+}
+
+.search-form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    color:#8c7b6a;
+}
+
+.search-form input,
+.search-form select {
+    padding: 8px;
+    font-size: 14px;
+}
+
+.search-button,
+.reset-button,
+.export-button {
+    padding: 8px 16px;
+    background-color: #8c7b6a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.contact-table th,
+.contact-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.contact-table th {
+    background-color: #eee;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* 背景を暗くする */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 90%;
+    font-family: 'Noto Serif JP', serif;
+    position: relative;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.modal-content p {
+    margin: 10px 0;
+    font-size: 0.95rem;
+}
+
+.modal-content form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.modal-content button {
+    background-color: #8c4b35;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-content .close {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}

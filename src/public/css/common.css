@@ -1,0 +1,14 @@
+.header__inner {
+    margin: 0 auto;
+    text-align: center;
+    background: #fff;
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: #8c7b6a;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Noto Serif JP", serif;
+}
